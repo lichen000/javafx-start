@@ -1,0 +1,12 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Button onAction="#doSwitch" text="Click me" GridPane.columnIndex="1" GridPane.columnSpan="1"
+            GridPane.halignment="LEFT" GridPane.rowIndex="1"/>
+    <Text fx:id="text1" text="A"
+          GridPane.columnIndex="2" GridPane.columnSpan="1"
+          GridPane.halignment="RIGHT" GridPane.rowIndex="2"/>
+</GridPane>
